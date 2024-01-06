@@ -1,0 +1,35 @@
+/*nav related styles*/
+
+nav {
+    display: flex;
+}
+
+.text-primary{
+    color: #FD6E0A;
+
+}
+.btn-primary{
+    border-radius: 5px;
+    background: #FD6E0A;
+
+}
+.nav-title {
+    color: var(--Dark-01, #181818);
+
+
+font-size: 45px;
+font-weight: 800;
+line-height: normal;
+
+}
+nav > ul {
+    display: flex;
+}
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: Dark 02;
+}
